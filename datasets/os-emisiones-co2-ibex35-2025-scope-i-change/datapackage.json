@@ -1,0 +1,68 @@
+{
+  "name": "os-emisiones-co2-ibex35-2025-scope-i-change",
+  "title": "Scope I emission change 2022-2023",
+  "description": "Report dataset for emisiones-co2-ibex35-2025 (scope-i-change)",
+  "version": "1.0.0",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Observatorio de Sostenibilidad",
+      "path": "evolucion-emisiones.json"
+    }
+  ],
+  "resources": [
+    {
+      "name": "scope-i-change",
+      "path": "data.parquet",
+      "format": "parquet",
+      "schema": {
+        "fields": [
+          {
+            "name": "empresa",
+            "type": "string"
+          },
+          {
+            "name": "cambio_alcance_i_porcentaje",
+            "type": "integer"
+          },
+          {
+            "name": "cambio_total_porcentaje",
+            "type": "integer"
+          },
+          {
+            "name": "tendencia",
+            "type": "string"
+          },
+          {
+            "name": "descripcion",
+            "type": "string"
+          },
+          {
+            "name": "color",
+            "type": "string"
+          }
+        ]
+      },
+      "os:query": true
+    }
+  ],
+  "os:provenance": {
+    "reportSlug": "emisiones-co2-ibex35-2025",
+    "sourceFile": "evolucion-emisiones.json",
+    "sourceHash": "5240a99f9d1ad4dfaf87e8526ee8d45752e7f46e08a3494d2c1bfb115976cb5b",
+    "registeredAt": "2026-06-21T15:06:28.717824+00:00"
+  },
+  "os:dataset": {
+    "uri": "os://dataset/os/emisiones-co2-ibex35-2025/scope-i-change@1.0.0",
+    "classification": "public",
+    "visibility": "production",
+    "origin": "os_derived",
+    "kind": "tabular",
+    "status": "published"
+  }
+}

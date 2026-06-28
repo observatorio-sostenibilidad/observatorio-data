@@ -1,0 +1,72 @@
+{
+  "name": "os-emisiones-co2-ibex35-2025-banking-sector",
+  "title": "Banking sector CO2eq emissions",
+  "description": "Report dataset for emisiones-co2-ibex35-2025 (banking-sector)",
+  "version": "1.0.0",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Observatorio de Sostenibilidad",
+      "path": "sector-bancario.json"
+    }
+  ],
+  "resources": [
+    {
+      "name": "banking-sector",
+      "path": "data.parquet",
+      "format": "parquet",
+      "schema": {
+        "fields": [
+          {
+            "name": "banco",
+            "type": "string"
+          },
+          {
+            "name": "alcance_i_t_co2eq",
+            "type": "string"
+          },
+          {
+            "name": "alcance_ii_t_co2eq",
+            "type": "string"
+          },
+          {
+            "name": "alcance_iii_t_co2eq",
+            "type": "integer"
+          },
+          {
+            "name": "total_t_co2eq",
+            "type": "integer"
+          },
+          {
+            "name": "metodologia",
+            "type": "string"
+          },
+          {
+            "name": "color",
+            "type": "string"
+          }
+        ]
+      },
+      "os:query": true
+    }
+  ],
+  "os:provenance": {
+    "reportSlug": "emisiones-co2-ibex35-2025",
+    "sourceFile": "sector-bancario.json",
+    "sourceHash": "02927fe5e12f862c032294107a21169b0a8a9ec6ad75d1771d7fd7a167dd8613",
+    "registeredAt": "2026-06-21T15:06:28.714411+00:00"
+  },
+  "os:dataset": {
+    "uri": "os://dataset/os/emisiones-co2-ibex35-2025/banking-sector@1.0.0",
+    "classification": "public",
+    "visibility": "production",
+    "origin": "os_derived",
+    "kind": "tabular",
+    "status": "published"
+  }
+}

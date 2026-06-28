@@ -1,0 +1,36 @@
+{
+  "name": "cnig-limites-provincias",
+  "title": "Administrative boundaries — provinces (Spain)",
+  "description": "CNIG administrative boundaries for Spanish provinces.",
+  "version": "1.0.0",
+  "licenses": [{ "name": "Open Data CNIG", "url": "https://centrodedescargas.cnig.es/" }],
+  "sources": [{
+    "title": "CNIG — Divisiones Administrativas",
+    "path": "https://centrodedescargas.cnig.es/"
+  }],
+  "resources": [
+    { "name": "polygons-gpkg", "path": "limites-provincias-poligonos.gpkg", "format": "gpkg" },
+    { "name": "polygons-geojson", "path": "limites-provincias-poligonos.geojson", "format": "geojson" },
+    { "name": "polygons-pmtiles", "path": "limites-provincias-poligonos.pmtiles", "format": "pmtiles" }
+  ],
+  "os:provenance": {
+    "pipeline": "os://transform/cnig-limites-ingest@1.0.0",
+    "pulledAt": "2026-06-23T00:00:00Z"
+  },
+  "os:dataset": {
+    "uri": "os://dataset/cnig/limites-provincias@1.0.0",
+    "classification": "public",
+    "visibility": "production",
+    "origin": "external_raw",
+    "kind": "geo_vector",
+    "status": "published",
+    "queryable": false,
+    "geoLayer": {
+      "id": "cnig-limites-provincias",
+      "valueProperty": "NAMEUNIT",
+      "sourceLayer": "provincias",
+      "defaultEngine": "maplibre",
+      "staticDir": "cnig-limites-provincias"
+    }
+  }
+}

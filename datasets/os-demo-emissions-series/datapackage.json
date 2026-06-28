@@ -1,0 +1,36 @@
+{
+  "name": "os-demo-emissions-series",
+  "title": "Demo emissions time series (synthetic)",
+  "description": "Synthetic national emissions by sector for catalog demo report — not real MITECO data",
+  "version": "1.0.0",
+  "licenses": [{ "name": "CC-BY-4.0", "url": "https://creativecommons.org/licenses/by/4.0/" }],
+  "sources": [{
+    "title": "Observatorio de Sostenibilidad — demo dataset",
+    "path": "https://www.observatoriosostenibilidad.org/"
+  }],
+  "resources": [{
+    "name": "emissions",
+    "path": "data.parquet",
+    "format": "parquet",
+    "schema": {
+      "fields": [
+        { "name": "year", "type": "integer" },
+        { "name": "sector", "type": "string" },
+        { "name": "co2eq_kt", "type": "number" }
+      ]
+    }
+  }],
+  "os:provenance": {
+    "pipeline": "os://transform/os/demo-seed@1.0.0",
+    "pulledAt": "2026-06-21T00:00:00Z",
+    "note": "Synthetic data for informe-catalogo-clasico demo only"
+  },
+  "os:dataset": {
+    "uri": "os://dataset/os/demo/emissions-series@1.0.0",
+    "classification": "public",
+    "visibility": "demo",
+    "origin": "os_synthetic",
+    "kind": "tabular",
+    "status": "published"
+  }
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "empresa": "NATURGY",
+    "emisiones_total_mt_co2eq": 114.6,
+    "porcentaje_total": 32,
+    "color": "#ff6b6b"
+  },
+  {
+    "empresa": "REPSOL",
+    "emisiones_total_mt_co2eq": 75.6,
+    "porcentaje_total": 21,
+    "color": "#4ecdc4"
+  },
+  {
+    "empresa": "IBERDROLA",
+    "emisiones_total_mt_co2eq": 51.6,
+    "porcentaje_total": 14,
+    "color": "#45b7d1"
+  },
+  {
+    "empresa": "IAG",
+    "emisiones_total_mt_co2eq": 32.3,
+    "porcentaje_total": 9,
+    "color": "#f9ca24"
+  },
+  {
+    "empresa": "INDITEX",
+    "emisiones_total_mt_co2eq": 16.9,
+    "porcentaje_total": 5,
+    "color": "#6c5ce7"
+  },
+  {
+    "empresa": "ENDESA",
+    "emisiones_total_mt_co2eq": 14.1,
+    "porcentaje_total": 4,
+    "color": "#a29bfe"
+  }
+]

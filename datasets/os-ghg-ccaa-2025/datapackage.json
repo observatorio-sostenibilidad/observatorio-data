@@ -1,0 +1,61 @@
+{
+  "name": "os-ghg-ccaa-2025",
+  "title": "GHG emissions by autonomous community (PoC)",
+  "description": "Simplified CCAA polygons with illustrative CO2eq values for map PoC",
+  "version": "1.0.0",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "resources": [
+    {
+      "name": "ccaa",
+      "path": "data.geoparquet",
+      "format": "geoparquet",
+      "schema": {
+        "fields": [
+          {
+            "name": "name",
+            "type": "string"
+          },
+          {
+            "name": "code",
+            "type": "string"
+          },
+          {
+            "name": "co2eq_kt",
+            "type": "number"
+          }
+        ]
+      },
+      "os:query": true
+    },
+    {
+      "name": "ccaa-geojson",
+      "path": "ccaa.geojson",
+      "format": "geojson"
+    }
+  ],
+  "os:provenance": {
+    "pipeline": "os://transform/os/ghg-ccaa-poc@1.0.0",
+    "pulledAt": "2026-06-21T00:00:00Z"
+  },
+  "os:dataset": {
+    "uri": "os://dataset/os/ghg-ccaa-2025@1.0.0",
+    "classification": "public",
+    "visibility": "production",
+    "origin": "os_derived",
+    "kind": "geo_vector",
+    "status": "published",
+    "queryResource": "ccaa",
+    "geoLayer": {
+      "id": "ghg-ccaa-2025",
+      "valueProperty": "co2eq_kt",
+      "sourceLayer": "ccaa",
+      "defaultEngine": "maplibre",
+      "staticDir": "os-ghg-ccaa-2025"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+[
+  { "year": 2024, "sector": "Alpha Energy Group", "co2eq_kt": 10.8, "rank": 1 },
+  { "year": 2024, "sector": "Beta Utilities", "co2eq_kt": 9.2, "rank": 2 },
+  { "year": 2024, "sector": "Gamma Steelworks", "co2eq_kt": 5.1, "rank": 3 },
+  { "year": 2024, "sector": "Delta Petrochemical", "co2eq_kt": 4.1, "rank": 4 },
+  { "year": 2024, "sector": "Epsilon Cement", "co2eq_kt": 2.6, "rank": 5 },
+  { "year": 2024, "sector": "Zeta Airlines", "co2eq_kt": 2.4, "rank": 6 },
+  { "year": 2024, "sector": "Eta Logistics", "co2eq_kt": 1.9, "rank": 7 },
+  { "year": 2024, "sector": "Theta Chemicals", "co2eq_kt": 1.5, "rank": 8 },
+  { "year": 2024, "sector": "Iota Glass", "co2eq_kt": 1.2, "rank": 9 },
+  { "year": 2024, "sector": "Kappa Paper", "co2eq_kt": 0.9, "rank": 10 }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "empresa": "IBERDROLA",
+    "emisiones_alcance_ii_mt_co2eq": 1.73,
+    "porcentaje_alcance_ii": 24,
+    "color": "#45b7d1"
+  },
+  {
+    "empresa": "ACERINOX",
+    "emisiones_alcance_ii_mt_co2eq": 1.44,
+    "porcentaje_alcance_ii": 20,
+    "color": "#55efc4"
+  },
+  {
+    "empresa": "ENDESA",
+    "emisiones_alcance_ii_mt_co2eq": 0.65,
+    "porcentaje_alcance_ii": 9,
+    "color": "#a29bfe"
+  },
+  {
+    "empresa": "ARCELORMITTAL",
+    "emisiones_alcance_ii_mt_co2eq": 0.5,
+    "porcentaje_alcance_ii": 7,
+    "color": "#fd79a8"
+  },
+  {
+    "empresa": "INDITEX",
+    "emisiones_alcance_ii_mt_co2eq": 0.43,
+    "porcentaje_alcance_ii": 6,
+    "color": "#6c5ce7"
+  },
+  {
+    "empresa": "REPSOL",
+    "emisiones_alcance_ii_mt_co2eq": 0.36,
+    "porcentaje_alcance_ii": 5,
+    "color": "#4ecdc4"
+  },
+  {
+    "empresa": "NATURGY",
+    "emisiones_alcance_ii_mt_co2eq": 0.36,
+    "porcentaje_alcance_ii": 5,
+    "color": "#ff6b6b"
+  }
+]

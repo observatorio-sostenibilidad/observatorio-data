@@ -1,0 +1,55 @@
+{
+  "name": "miteco-ghg-national-2025",
+  "title": "National GHG Emissions Spain by Sector",
+  "description": "Illustrative national greenhouse gas emissions by IPCC sector for PoC (replace with MITECO pull)",
+  "version": "1.0.0",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "MITECO Open Data",
+      "path": "https://catalogo.datosabiertos.miteco.gob.es"
+    }
+  ],
+  "resources": [
+    {
+      "name": "emissions",
+      "path": "data.parquet",
+      "format": "parquet",
+      "schema": {
+        "fields": [
+          {
+            "name": "year",
+            "type": "integer"
+          },
+          {
+            "name": "sector",
+            "type": "string"
+          },
+          {
+            "name": "co2eq_kt",
+            "type": "number"
+          }
+        ]
+      },
+      "os:query": true
+    }
+  ],
+  "os:provenance": {
+    "pipeline": "os://transform/miteco-ghg-ingest@1.0.0",
+    "pulledAt": "2026-06-20T00:00:00Z",
+    "note": "PoC illustrative data — scheduled MITECO adapter in Phase 2"
+  },
+  "os:dataset": {
+    "uri": "os://dataset/miteco/ghg-national-2025@1.0.0",
+    "classification": "public",
+    "visibility": "production",
+    "origin": "external_raw",
+    "kind": "tabular",
+    "status": "published"
+  }
+}

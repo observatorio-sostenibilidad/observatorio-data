@@ -1,0 +1,26 @@
+[
+  {
+    "empresa": "NATURGY",
+    "emisiones_alcance_iii_mt_co2eq": 102.0,
+    "porcentaje_alcance_iii": 38,
+    "color": "#ff6b6b"
+  },
+  {
+    "empresa": "REPSOL",
+    "emisiones_alcance_iii_mt_co2eq": 61.0,
+    "porcentaje_alcance_iii": 23,
+    "color": "#4ecdc4"
+  },
+  {
+    "empresa": "IBERDROLA",
+    "emisiones_alcance_iii_mt_co2eq": 39.0,
+    "porcentaje_alcance_iii": 15,
+    "color": "#45b7d1"
+  },
+  {
+    "empresa": "INDITEX",
+    "emisiones_alcance_iii_mt_co2eq": 16.4,
+    "porcentaje_alcance_iii": 6,
+    "color": "#6c5ce7"
+  }
+]

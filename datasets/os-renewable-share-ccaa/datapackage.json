@@ -1,0 +1,78 @@
+{
+  "name": "os-renewable-share-ccaa",
+  "title": "Renewable electricity share by autonomous community (editorial demo)",
+  "description": "Illustrative CCAA polygons with demo renewable share values for map and template previews",
+  "version": "1.0.0",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "resources": [
+    {
+      "name": "ccaa",
+      "path": "ccaa.geojson",
+      "format": "geojson",
+      "schema": {
+        "fields": [
+          {
+            "name": "name",
+            "type": "string"
+          },
+          {
+            "name": "code",
+            "type": "string"
+          },
+          {
+            "name": "renewable_pct",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "renewable-share",
+      "path": "data.json",
+      "format": "json",
+      "schema": {
+        "fields": [
+          {
+            "name": "name",
+            "type": "string"
+          },
+          {
+            "name": "code",
+            "type": "string"
+          },
+          {
+            "name": "renewable_pct",
+            "type": "number"
+          }
+        ]
+      },
+      "os:query": true
+    }
+  ],
+  "os:provenance": {
+    "pipeline": "os://transform/os/renewable-share-demo@1.0.0",
+    "pulledAt": "2026-06-21T00:00:00Z",
+    "note": "Editorial demo — illustrative values only"
+  },
+  "os:dataset": {
+    "uri": "os://dataset/os/renewable-share-ccaa@1.0.0",
+    "classification": "public",
+    "visibility": "demo",
+    "origin": "os_synthetic",
+    "kind": "geo_vector",
+    "status": "published",
+    "queryResource": "renewable-share",
+    "geoLayer": {
+      "id": "renewable-share-ccaa",
+      "valueProperty": "renewable_pct",
+      "sourceLayer": "ccaa",
+      "defaultEngine": "d3-geo",
+      "staticDir": "os-renewable-share-ccaa"
+    }
+  }
+}

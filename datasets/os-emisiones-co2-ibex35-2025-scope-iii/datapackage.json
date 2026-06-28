@@ -1,0 +1,60 @@
+{
+  "name": "os-emisiones-co2-ibex35-2025-scope-iii",
+  "title": "IBEX35 scope III emissions by company",
+  "description": "Report dataset for emisiones-co2-ibex35-2025 (scope-iii)",
+  "version": "1.0.0",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Observatorio de Sostenibilidad",
+      "path": "alcance-iii-empresas.json"
+    }
+  ],
+  "resources": [
+    {
+      "name": "scope-iii",
+      "path": "data.parquet",
+      "format": "parquet",
+      "schema": {
+        "fields": [
+          {
+            "name": "empresa",
+            "type": "string"
+          },
+          {
+            "name": "emisiones_alcance_iii_mt_co2eq",
+            "type": "number"
+          },
+          {
+            "name": "porcentaje_alcance_iii",
+            "type": "integer"
+          },
+          {
+            "name": "color",
+            "type": "string"
+          }
+        ]
+      },
+      "os:query": true
+    }
+  ],
+  "os:provenance": {
+    "reportSlug": "emisiones-co2-ibex35-2025",
+    "sourceFile": "alcance-iii-empresas.json",
+    "sourceHash": "9ac00f0f598aa38f3b2c96a3db1fba2184c61a9351e9ba572e915fc47665c3d3",
+    "registeredAt": "2026-06-21T15:06:28.711275+00:00"
+  },
+  "os:dataset": {
+    "uri": "os://dataset/os/emisiones-co2-ibex35-2025/scope-iii@1.0.0",
+    "classification": "public",
+    "visibility": "production",
+    "origin": "os_derived",
+    "kind": "tabular",
+    "status": "published"
+  }
+}

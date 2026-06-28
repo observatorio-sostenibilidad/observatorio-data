@@ -1,0 +1,37 @@
+{
+  "name": "os-demo-company-ranking",
+  "title": "Demo company emissions ranking (synthetic)",
+  "description": "Synthetic top-10 company ranking for catalog demo report — fictional company names",
+  "version": "1.0.0",
+  "licenses": [{ "name": "CC-BY-4.0", "url": "https://creativecommons.org/licenses/by/4.0/" }],
+  "sources": [{
+    "title": "Observatorio de Sostenibilidad — demo dataset",
+    "path": "https://www.observatoriosostenibilidad.org/"
+  }],
+  "resources": [{
+    "name": "ranking",
+    "path": "data.parquet",
+    "format": "parquet",
+    "schema": {
+      "fields": [
+        { "name": "year", "type": "integer" },
+        { "name": "sector", "type": "string" },
+        { "name": "co2eq_kt", "type": "number" },
+        { "name": "rank", "type": "integer" }
+      ]
+    }
+  }],
+  "os:provenance": {
+    "pipeline": "os://transform/os/demo-seed@1.0.0",
+    "pulledAt": "2026-06-21T00:00:00Z",
+    "note": "Synthetic data — company names are fictional"
+  },
+  "os:dataset": {
+    "uri": "os://dataset/os/demo/company-ranking@1.0.0",
+    "classification": "public",
+    "visibility": "demo",
+    "origin": "os_synthetic",
+    "kind": "tabular",
+    "status": "published"
+  }
+}

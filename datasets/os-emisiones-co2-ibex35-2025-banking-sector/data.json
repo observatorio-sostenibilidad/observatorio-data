@@ -1,0 +1,47 @@
+[
+  {
+    "banco": "BANKINTER",
+    "alcance_i_t_co2eq": null,
+    "alcance_ii_t_co2eq": null,
+    "alcance_iii_t_co2eq": 1892877,
+    "total_t_co2eq": 1892877,
+    "metodologia": "Diferente a otros bancos",
+    "color": "#ff6b6b"
+  },
+  {
+    "banco": "BBVA",
+    "alcance_i_t_co2eq": 38005,
+    "alcance_ii_t_co2eq": 203407,
+    "alcance_iii_t_co2eq": 1443437,
+    "total_t_co2eq": 1684849,
+    "metodologia": "Cuadruplica a CaixaBank en alcance II",
+    "color": "#4ecdc4"
+  },
+  {
+    "banco": "CAIXABANK",
+    "alcance_i_t_co2eq": 9257,
+    "alcance_ii_t_co2eq": 43979,
+    "alcance_iii_t_co2eq": 206434,
+    "total_t_co2eq": 259670,
+    "metodologia": "Referencia para comparación",
+    "color": "#45b7d1"
+  },
+  {
+    "banco": "BANCO SANTANDER",
+    "alcance_i_t_co2eq": 25755,
+    "alcance_ii_t_co2eq": 20303,
+    "alcance_iii_t_co2eq": 126654,
+    "total_t_co2eq": 172712,
+    "metodologia": "10 veces menor que BBVA en alcance II",
+    "color": "#f9ca24"
+  },
+  {
+    "banco": "BANCO SABADELL",
+    "alcance_i_t_co2eq": 3243,
+    "alcance_ii_t_co2eq": 16877,
+    "alcance_iii_t_co2eq": 7086,
+    "total_t_co2eq": 27206,
+    "metodologia": "Señala 62% en alcance II vs 12% grandes bancos",
+    "color": "#6c5ce7"
+  }
+]

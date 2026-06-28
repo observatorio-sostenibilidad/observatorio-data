@@ -1,0 +1,10 @@
+[
+  { "year": 2019, "sector": "Energy", "co2eq_kt": 98500 },
+  { "year": 2019, "sector": "Transport", "co2eq_kt": 67200 },
+  { "year": 2019, "sector": "Industry", "co2eq_kt": 42100 },
+  { "year": 2019, "sector": "Agriculture", "co2eq_kt": 38900 },
+  { "year": 2023, "sector": "Energy", "co2eq_kt": 91200 },
+  { "year": 2023, "sector": "Transport", "co2eq_kt": 69800 },
+  { "year": 2023, "sector": "Industry", "co2eq_kt": 39500 },
+  { "year": 2023, "sector": "Agriculture", "co2eq_kt": 37200 }
+]

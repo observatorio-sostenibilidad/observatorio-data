@@ -1,1 +1,8 @@
 .DS_Store
+*.parquet
+*.gpkg
+*.pmtiles
+# Large GeoJSON (>2MB) — served from GCS; keep municipios-index.json in Git
+datasets/**/limites-*.geojson
+datasets/**/limites-*.gpkg
+datasets/**/limites-*.pmtiles

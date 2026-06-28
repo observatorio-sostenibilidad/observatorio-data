@@ -1,0 +1,127 @@
+'@context':
+  - https://schema.org/
+  - https://semiceu.github.io/uri.semic.eu-generated/DCAT-AP/releases/3.0.0/
+'@type': dc:Catalog
+title: Observatorio de Sostenibilidad Open Data Catalog
+description: Public datasets published by Observatorio de Sostenibilidad
+publisher:
+  name: Observatorio de Sostenibilidad
+  url: https://www.observatoriosostenibilidad.org
+dataset:
+  - id: cnig-limites-ccaa
+    uri: os://dataset/cnig/limites-ccaa@1.0.0
+    title: Administrative boundaries — autonomous communities (Spain)
+    classification: public
+    license: Open Data CNIG
+    path: datasets/cnig-limites-ccaa
+  - id: cnig-limites-espana
+    uri: os://dataset/cnig/limites-espana@1.0.0
+    title: Administrative boundary — Spain (national)
+    classification: public
+    license: Open Data CNIG
+    path: datasets/cnig-limites-espana
+  - id: cnig-limites-municipios
+    uri: os://dataset/cnig/limites-municipios@1.0.0
+    title: Administrative boundaries — municipalities (Spain)
+    classification: public
+    license: Open Data CNIG
+    path: datasets/cnig-limites-municipios
+  - id: cnig-limites-provincias
+    uri: os://dataset/cnig/limites-provincias@1.0.0
+    title: Administrative boundaries — provinces (Spain)
+    classification: public
+    license: Open Data CNIG
+    path: datasets/cnig-limites-provincias
+  - id: miteco-ghg-national-2025
+    uri: os://dataset/miteco/ghg-national-2025@1.0.0
+    title: National GHG Emissions Spain by Sector
+    classification: public
+    license: CC-BY-4.0
+    path: datasets/miteco-ghg-national-2025
+  - id: os-descarbonizacion-2025-europa-espana-ccaa-top-emitters
+    uri: os://dataset/os/descarbonizacion-2025-europa-espana-ccaa/top-emitters@1.0.0
+    title: Top 10 CO2 emitters Spain carbon market 2024
+    classification: public
+    license: CC-BY-4.0
+    path: datasets/os-descarbonizacion-2025-europa-espana-ccaa-top-emitters
+  - id: os-emisiones-co2-ibex35-2025-banking-sector
+    uri: os://dataset/os/emisiones-co2-ibex35-2025/banking-sector@1.0.0
+    title: Banking sector CO2eq emissions
+    classification: public
+    license: CC-BY-4.0
+    path: datasets/os-emisiones-co2-ibex35-2025-banking-sector
+  - id: os-emisiones-co2-ibex35-2025-scope-i
+    uri: os://dataset/os/emisiones-co2-ibex35-2025/scope-i@1.0.0
+    title: IBEX35 scope I emissions by company
+    classification: public
+    license: CC-BY-4.0
+    path: datasets/os-emisiones-co2-ibex35-2025-scope-i
+  - id: os-emisiones-co2-ibex35-2025-scope-i-change
+    uri: os://dataset/os/emisiones-co2-ibex35-2025/scope-i-change@1.0.0
+    title: Scope I emission change 2022-2023
+    classification: public
+    license: CC-BY-4.0
+    path: datasets/os-emisiones-co2-ibex35-2025-scope-i-change
+  - id: os-emisiones-co2-ibex35-2025-scope-ii
+    uri: os://dataset/os/emisiones-co2-ibex35-2025/scope-ii@1.0.0
+    title: IBEX35 scope II emissions by company
+    classification: public
+    license: CC-BY-4.0
+    path: datasets/os-emisiones-co2-ibex35-2025-scope-ii
+  - id: os-emisiones-co2-ibex35-2025-scope-iii
+    uri: os://dataset/os/emisiones-co2-ibex35-2025/scope-iii@1.0.0
+    title: IBEX35 scope III emissions by company
+    classification: public
+    license: CC-BY-4.0
+    path: datasets/os-emisiones-co2-ibex35-2025-scope-iii
+  - id: os-emisiones-co2-ibex35-2025-total-emissions
+    uri: os://dataset/os/emisiones-co2-ibex35-2025/total-emissions@1.0.0
+    title: IBEX35 total CO2eq emissions by company
+    classification: public
+    license: CC-BY-4.0
+    path: datasets/os-emisiones-co2-ibex35-2025-total-emissions
+  - id: os-ghg-ccaa-2025
+    uri: os://dataset/os/ghg-ccaa-2025@1.0.0
+    title: GHG emissions by autonomous community (PoC)
+    classification: public
+    license: CC-BY-4.0
+    path: datasets/os-ghg-ccaa-2025
+  - id: os-inundaciones-2024-muertes-evitables-dana-2024-income
+    uri: os://dataset/os/inundaciones-2024-muertes-evitables/dana-2024-income@1.0.0
+    title: DANA 2024 affected population by income band
+    classification: public
+    license: CC-BY-4.0
+    path: datasets/os-inundaciones-2024-muertes-evitables-dana-2024-income
+  - id: os-inundaciones-2024-muertes-evitables-dana-2024-population
+    uri: os://dataset/os/inundaciones-2024-muertes-evitables/dana-2024-population@1.0.0
+    title: DANA 2024 affected population by municipality
+    classification: public
+    license: CC-BY-4.0
+    path: datasets/os-inundaciones-2024-muertes-evitables-dana-2024-population
+  - id: os-inundaciones-2024-muertes-evitables-flood-risk-ccaa
+    uri: os://dataset/os/inundaciones-2024-muertes-evitables/flood-risk-ccaa@1.0.0
+    title: Population at Q100 flood risk by region
+    classification: public
+    license: CC-BY-4.0
+    path: datasets/os-inundaciones-2024-muertes-evitables-flood-risk-ccaa
+  - id: os-inundaciones-2024-muertes-evitables-flood-risk-q100
+    uri: os://dataset/os/inundaciones-2024-muertes-evitables/flood-risk-q100@1.0.0
+    title: Population at Q100 flood risk by urban area
+    classification: public
+    license: CC-BY-4.0
+    path: datasets/os-inundaciones-2024-muertes-evitables-flood-risk-q100
+  - id: ref-miteco-catalog
+    uri: os://source/miteco/catalog
+    title: MITECO Open Data Catalog
+    classification: reference
+    url: https://catalogo.datosabiertos.miteco.gob.es
+  - id: ref-aemet-opendata
+    uri: os://source/aemet/opendata
+    title: AEMET OpenData API
+    classification: reference
+    url: https://opendata.aemet.es
+  - id: ref-cnig-centro-descargas
+    uri: os://source/cnig/centro-descargas
+    title: CNIG Centro de Descargas
+    classification: reference
+    url: https://centrodedescargas.cnig.es/

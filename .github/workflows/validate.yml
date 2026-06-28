@@ -1,0 +1,35 @@
+name: Validate open data
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate datapackage files exist
+        run: |
+          test -f datasets/miteco-ghg-national-2025/datapackage.json
+          test -f datasets/miteco-ghg-national-2025/data.parquet
+          test -f datasets/os-ghg-ccaa-2025/data.geoparquet
+          echo "Parquet pilot datasets present"
+
+      - uses: astral-sh/setup-uv@v5
+      - name: Parquet readable
+        run: |
+          uv pip install pyarrow --system
+          python3 - << 'PY'
+          import pyarrow.parquet as pq
+          from pathlib import Path
+          for p in [
+              Path("datasets/miteco-ghg-national-2025/data.parquet"),
+              Path("datasets/os-ghg-ccaa-2025/data.geoparquet"),
+          ]:
+              table = pq.read_table(p)
+              assert table.num_rows > 0, p
+              print(f"OK {p} rows={table.num_rows}")
+          PY

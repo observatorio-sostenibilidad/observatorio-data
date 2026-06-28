@@ -1,0 +1,56 @@
+{
+  "name": "os-descarbonizacion-2025-europa-espana-ccaa-top-emitters",
+  "title": "Top 10 CO2 emitters Spain carbon market 2024",
+  "description": "Report dataset for descarbonizacion-2025-europa-espana-ccaa (top-emitters)",
+  "version": "1.0.0",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Observatorio de Sostenibilidad",
+      "path": "empresas.json"
+    }
+  ],
+  "resources": [
+    {
+      "name": "top-emitters",
+      "path": "data.parquet",
+      "format": "parquet",
+      "schema": {
+        "fields": [
+          {
+            "name": "empresa",
+            "type": "string"
+          },
+          {
+            "name": "emisiones",
+            "type": "number"
+          },
+          {
+            "name": "emisionesTon",
+            "type": "integer"
+          }
+        ]
+      },
+      "os:query": true
+    }
+  ],
+  "os:provenance": {
+    "reportSlug": "descarbonizacion-2025-europa-espana-ccaa",
+    "sourceFile": "empresas.json",
+    "sourceHash": "6ee2c9fcbc0644462b7d587d8a9ad93468e6321d7ba2f435fbdd89ca968b9a4b",
+    "registeredAt": "2026-06-21T15:06:28.694157+00:00"
+  },
+  "os:dataset": {
+    "uri": "os://dataset/os/descarbonizacion-2025-europa-espana-ccaa/top-emitters@1.0.0",
+    "classification": "public",
+    "visibility": "production",
+    "origin": "os_derived",
+    "kind": "tabular",
+    "status": "published"
+  }
+}

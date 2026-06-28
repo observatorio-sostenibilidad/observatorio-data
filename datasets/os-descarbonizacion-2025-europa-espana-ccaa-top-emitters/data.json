@@ -1,0 +1,52 @@
+[
+  {
+    "empresa": "REPSOL",
+    "emisiones": 10.8,
+    "emisionesTon": 10760687
+  },
+  {
+    "empresa": "ENDESA",
+    "emisiones": 9.2,
+    "emisionesTon": 9158640
+  },
+  {
+    "empresa": "EDP",
+    "emisiones": 5.3,
+    "emisionesTon": 5290168
+  },
+  {
+    "empresa": "ARCELOR MITTAL",
+    "emisiones": 5.1,
+    "emisionesTon": 5088189
+  },
+  {
+    "empresa": "CEPSA",
+    "emisiones": 4.1,
+    "emisionesTon": 4069868
+  },
+  {
+    "empresa": "NATURGY",
+    "emisiones": 4.0,
+    "emisionesTon": 3962077
+  },
+  {
+    "empresa": "IBERIA",
+    "emisiones": 3.8,
+    "emisionesTon": 3821512
+  },
+  {
+    "empresa": "IBERDROLA",
+    "emisiones": 2.8,
+    "emisionesTon": 2819137
+  },
+  {
+    "empresa": "Cementos Portland",
+    "emisiones": 2.6,
+    "emisionesTon": 2625515
+  },
+  {
+    "empresa": "Lafarge Holcim",
+    "emisiones": 2.1,
+    "emisionesTon": 2118019
+  }
+]

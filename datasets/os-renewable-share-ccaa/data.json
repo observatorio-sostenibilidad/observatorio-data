@@ -1,0 +1,8 @@
+[
+  { "name": "Andalucía", "code": "AN", "renewable_pct": 38.2 },
+  { "name": "Cataluña", "code": "CT", "renewable_pct": 31.5 },
+  { "name": "Madrid", "code": "MD", "renewable_pct": 12.4 },
+  { "name": "País Vasco", "code": "PV", "renewable_pct": 28.7 },
+  { "name": "Valencia", "code": "VC", "renewable_pct": 34.1 },
+  { "name": "Galicia", "code": "GA", "renewable_pct": 52.8 }
+]

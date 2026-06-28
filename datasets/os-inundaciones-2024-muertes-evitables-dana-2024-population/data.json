@@ -1,0 +1,72 @@
+[
+  {
+    "municipio": "Paiporta",
+    "poblacion_afectada": 26401,
+    "porcentaje": 17
+  },
+  {
+    "municipio": "Xirivella",
+    "poblacion_afectada": 25382,
+    "porcentaje": 17
+  },
+  {
+    "municipio": "Valencia",
+    "poblacion_afectada": 15583,
+    "porcentaje": 10
+  },
+  {
+    "municipio": "L'Alcudia",
+    "poblacion_afectada": 12027,
+    "porcentaje": 8
+  },
+  {
+    "municipio": "Picanya",
+    "poblacion_afectada": 11692,
+    "porcentaje": 8
+  },
+  {
+    "municipio": "Algemesi",
+    "poblacion_afectada": 9247,
+    "porcentaje": 6
+  },
+  {
+    "municipio": "Alberic",
+    "poblacion_afectada": 7960,
+    "porcentaje": 5
+  },
+  {
+    "municipio": "Castelló",
+    "poblacion_afectada": 6408,
+    "porcentaje": 4
+  },
+  {
+    "municipio": "Catarroja",
+    "poblacion_afectada": 5806,
+    "porcentaje": 4
+  },
+  {
+    "municipio": "Aldaia",
+    "poblacion_afectada": 4556,
+    "porcentaje": 3
+  },
+  {
+    "municipio": "La Pobla Llarga",
+    "poblacion_afectada": 4425,
+    "porcentaje": 3
+  },
+  {
+    "municipio": "Sedaví",
+    "poblacion_afectada": 3654,
+    "porcentaje": 2
+  },
+  {
+    "municipio": "Alfafar",
+    "poblacion_afectada": 2679,
+    "porcentaje": 2
+  },
+  {
+    "municipio": "Otros municipios",
+    "poblacion_afectada": 17280,
+    "porcentaje": 11
+  }
+]

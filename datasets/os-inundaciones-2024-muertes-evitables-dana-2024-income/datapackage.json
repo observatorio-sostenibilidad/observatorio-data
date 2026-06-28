@@ -1,0 +1,56 @@
+{
+  "name": "os-inundaciones-2024-muertes-evitables-dana-2024-income",
+  "title": "DANA 2024 affected population by income band",
+  "description": "Report dataset for inundaciones-2024-muertes-evitables (dana-2024-income)",
+  "version": "1.0.0",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Observatorio de Sostenibilidad",
+      "path": "dana-2024-renta-afectada.json"
+    }
+  ],
+  "resources": [
+    {
+      "name": "dana-2024-income",
+      "path": "data.parquet",
+      "format": "parquet",
+      "schema": {
+        "fields": [
+          {
+            "name": "rango_renta",
+            "type": "string"
+          },
+          {
+            "name": "poblacion_afectada",
+            "type": "integer"
+          },
+          {
+            "name": "renta_media",
+            "type": "integer"
+          }
+        ]
+      },
+      "os:query": true
+    }
+  ],
+  "os:provenance": {
+    "reportSlug": "inundaciones-2024-muertes-evitables",
+    "sourceFile": "dana-2024-renta-afectada.json",
+    "sourceHash": "7e25921cadd334f20ac3fca4f7144d338104924c19326feb5ad0f9e012846eeb",
+    "registeredAt": "2026-06-21T15:06:28.732236+00:00"
+  },
+  "os:dataset": {
+    "uri": "os://dataset/os/inundaciones-2024-muertes-evitables/dana-2024-income@1.0.0",
+    "classification": "public",
+    "visibility": "production",
+    "origin": "os_derived",
+    "kind": "tabular",
+    "status": "published"
+  }
+}

@@ -1,0 +1,128 @@
+[
+  {
+    "area_urbana": "Murcia",
+    "provincia": "Murcia",
+    "ccaa": "Murcia",
+    "poblacion_q100": 260183,
+    "porcentaje_total": 28
+  },
+  {
+    "area_urbana": "Barcelona",
+    "provincia": "Barcelona",
+    "ccaa": "Cataluña",
+    "poblacion_q100": 96811,
+    "porcentaje_total": 10
+  },
+  {
+    "area_urbana": "Valladolid",
+    "provincia": "Valladolid",
+    "ccaa": "Castilla y León",
+    "poblacion_q100": 82959,
+    "porcentaje_total": 9
+  },
+  {
+    "area_urbana": "Sevilla",
+    "provincia": "Sevilla",
+    "ccaa": "Andalucía",
+    "poblacion_q100": 53666,
+    "porcentaje_total": 6
+  },
+  {
+    "area_urbana": "Cartagena",
+    "provincia": "Murcia",
+    "ccaa": "Murcia",
+    "poblacion_q100": 52563,
+    "porcentaje_total": 6
+  },
+  {
+    "area_urbana": "Asturias",
+    "provincia": "Asturias",
+    "ccaa": "Asturias",
+    "poblacion_q100": 51928,
+    "porcentaje_total": 6
+  },
+  {
+    "area_urbana": "Bilbao",
+    "provincia": "Vizcaya",
+    "ccaa": "País Vasco",
+    "poblacion_q100": 33220,
+    "porcentaje_total": 4
+  },
+  {
+    "area_urbana": "Palma de Mallorca",
+    "provincia": "Baleares",
+    "ccaa": "Baleares",
+    "poblacion_q100": 31112,
+    "porcentaje_total": 3
+  },
+  {
+    "area_urbana": "Valencia",
+    "provincia": "Valencia",
+    "ccaa": "C. Valenciana",
+    "poblacion_q100": 29456,
+    "porcentaje_total": 3
+  },
+  {
+    "area_urbana": "Girona",
+    "provincia": "Girona",
+    "ccaa": "Cataluña",
+    "poblacion_q100": 24978,
+    "porcentaje_total": 3
+  },
+  {
+    "area_urbana": "Lleida",
+    "provincia": "Lleida",
+    "ccaa": "Cataluña",
+    "poblacion_q100": 21835,
+    "porcentaje_total": 2
+  },
+  {
+    "area_urbana": "Granada",
+    "provincia": "Granada",
+    "ccaa": "Andalucía",
+    "poblacion_q100": 17183,
+    "porcentaje_total": 2
+  },
+  {
+    "area_urbana": "Blanes-Lloret de Mar",
+    "provincia": "Girona",
+    "ccaa": "Cataluña",
+    "poblacion_q100": 12947,
+    "porcentaje_total": 1
+  },
+  {
+    "area_urbana": "Córdoba",
+    "provincia": "Córdoba",
+    "ccaa": "Andalucía",
+    "poblacion_q100": 12721,
+    "porcentaje_total": 1
+  },
+  {
+    "area_urbana": "Málaga",
+    "provincia": "Málaga",
+    "ccaa": "Andalucía",
+    "poblacion_q100": 12073,
+    "porcentaje_total": 1
+  },
+  {
+    "area_urbana": "Madrid",
+    "provincia": "Madrid",
+    "ccaa": "Madrid",
+    "poblacion_q100": 11898,
+    "porcentaje_total": 1
+  },
+  {
+    "area_urbana": "Gandía",
+    "provincia": "Valencia",
+    "ccaa": "C. Valenciana",
+    "poblacion_q100": 11893,
+    "porcentaje_total": 1
+  },
+  {
+    "area_urbana": "Donostia/San Sebastián",
+    "provincia": "Guipúzcoa",
+    "ccaa": "País Vasco",
+    "poblacion_q100": 10630,
+    "porcentaje_total": 1
+  }
+]

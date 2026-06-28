@@ -1,0 +1,72 @@
+[
+  {
+    "rango_renta": "< 20.000 €",
+    "poblacion_afectada": 56,
+    "renta_media": 19000
+  },
+  {
+    "rango_renta": "20.000 € - 22.000 €",
+    "poblacion_afectada": 1789,
+    "renta_media": 21000
+  },
+  {
+    "rango_renta": "22.000 € - 24.000 €",
+    "poblacion_afectada": 3774,
+    "renta_media": 23000
+  },
+  {
+    "rango_renta": "24.000 € - 26.000 €",
+    "poblacion_afectada": 3479,
+    "renta_media": 25000
+  },
+  {
+    "rango_renta": "26.000 € - 28.000 €",
+    "poblacion_afectada": 18480,
+    "renta_media": 27000
+  },
+  {
+    "rango_renta": "28.000 € - 30.000 €",
+    "poblacion_afectada": 26058,
+    "renta_media": 29000
+  },
+  {
+    "rango_renta": "30.000 € - 32.000 €",
+    "poblacion_afectada": 36945,
+    "renta_media": 31000
+  },
+  {
+    "rango_renta": "32.000 € - 34.000 €",
+    "poblacion_afectada": 22768,
+    "renta_media": 33000
+  },
+  {
+    "rango_renta": "34.000 € - 36.000 €",
+    "poblacion_afectada": 10059,
+    "renta_media": 35000
+  },
+  {
+    "rango_renta": "36.000 € - 38.000 €",
+    "poblacion_afectada": 17367,
+    "renta_media": 37000
+  },
+  {
+    "rango_renta": "38.000 € - 40.000 €",
+    "poblacion_afectada": 1280,
+    "renta_media": 39000
+  },
+  {
+    "rango_renta": "40.000 € - 42.000 €",
+    "poblacion_afectada": 6084,
+    "renta_media": 41000
+  },
+  {
+    "rango_renta": "42.000 € - 44.000 €",
+    "poblacion_afectada": 1220,
+    "renta_media": 43000
+  },
+  {
+    "rango_renta": "> 44.000 €",
+    "poblacion_afectada": 3743,
+    "renta_media": 50000
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "name": "os-inundaciones-2024-muertes-evitables-dana-2024-population",
+  "title": "DANA 2024 affected population by municipality",
+  "description": "Report dataset for inundaciones-2024-muertes-evitables (dana-2024-population)",
+  "version": "1.0.0",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Observatorio de Sostenibilidad",
+      "path": "dana-2024-poblacion-afectada.json"
+    }
+  ],
+  "resources": [
+    {
+      "name": "dana-2024-population",
+      "path": "data.parquet",
+      "format": "parquet",
+      "schema": {
+        "fields": [
+          {
+            "name": "municipio",
+            "type": "string"
+          },
+          {
+            "name": "poblacion_afectada",
+            "type": "integer"
+          },
+          {
+            "name": "porcentaje",
+            "type": "integer"
+          }
+        ]
+      },
+      "os:query": true
+    }
+  ],
+  "os:provenance": {
+    "reportSlug": "inundaciones-2024-muertes-evitables",
+    "sourceFile": "dana-2024-poblacion-afectada.json",
+    "sourceHash": "a790fca6ac8f45169d76d9f9525af8765cde3c843867f2302f8008af91525e03",
+    "registeredAt": "2026-06-21T15:06:28.729533+00:00"
+  },
+  "os:dataset": {
+    "uri": "os://dataset/os/inundaciones-2024-muertes-evitables/dana-2024-population@1.0.0",
+    "classification": "public",
+    "visibility": "production",
+    "origin": "os_derived",
+    "kind": "tabular",
+    "status": "published"
+  }
+}

@@ -1,0 +1,17 @@
+# External data source references — merged into catalog/index.yaml by registry:sync
+references:
+  - id: ref-miteco-catalog
+    uri: os://source/miteco/catalog
+    title: MITECO Open Data Catalog
+    classification: reference
+    url: https://catalogo.datosabiertos.miteco.gob.es
+  - id: ref-aemet-opendata
+    uri: os://source/aemet/opendata
+    title: AEMET OpenData API
+    classification: reference
+    url: https://opendata.aemet.es
+  - id: ref-cnig-centro-descargas
+    uri: os://source/cnig/centro-descargas
+    title: CNIG Centro de Descargas
+    classification: reference
+    url: https://centrodedescargas.cnig.es/

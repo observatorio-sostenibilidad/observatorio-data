@@ -1,0 +1,58 @@
+[
+  {
+    "empresa": "IAG",
+    "cambio_alcance_i_porcentaje": 21,
+    "cambio_total_porcentaje": 21,
+    "tendencia": "Aumento fuerte",
+    "descripcion": "Casi duplicó emisiones desde 2020-2023",
+    "color": "#e74c3c"
+  },
+  {
+    "empresa": "ARCELORMITTAL",
+    "cambio_alcance_i_porcentaje": -11,
+    "cambio_total_porcentaje": -7,
+    "tendencia": "Reducción moderada",
+    "descripcion": "Reducción en siderurgia",
+    "color": "#2ecc71"
+  },
+  {
+    "empresa": "IBERDROLA",
+    "cambio_alcance_i_porcentaje": -11,
+    "cambio_total_porcentaje": -7,
+    "tendencia": "Reducción moderada",
+    "descripcion": "Descarbonización eléctrica",
+    "color": "#2ecc71"
+  },
+  {
+    "empresa": "NATURGY",
+    "cambio_alcance_i_porcentaje": -15,
+    "cambio_total_porcentaje": -8,
+    "tendencia": "Reducción moderada",
+    "descripcion": "Transición energética",
+    "color": "#2ecc71"
+  },
+  {
+    "empresa": "REPSOL",
+    "cambio_alcance_i_porcentaje": -8,
+    "cambio_total_porcentaje": -12,
+    "tendencia": "Reducción moderada",
+    "descripcion": "Sector petrolero",
+    "color": "#2ecc71"
+  },
+  {
+    "empresa": "ACERINOX",
+    "cambio_alcance_i_porcentaje": -11,
+    "cambio_total_porcentaje": -14,
+    "tendencia": "Reducción moderada",
+    "descripcion": "Siderurgia",
+    "color": "#2ecc71"
+  },
+  {
+    "empresa": "ENDESA",
+    "cambio_alcance_i_porcentaje": -14,
+    "cambio_total_porcentaje": -61,
+    "tendencia": "Reducción fuerte",
+    "descripcion": "Gran descarbonización",
+    "color": "#27ae60"
+  }
+]

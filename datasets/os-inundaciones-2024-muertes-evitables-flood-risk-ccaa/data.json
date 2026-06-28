@@ -1,0 +1,87 @@
+[
+  {
+    "ccaa": "Murcia",
+    "poblacion_q100": 319041,
+    "porcentaje": 33.32
+  },
+  {
+    "ccaa": "Cataluña",
+    "poblacion_q100": 161703,
+    "porcentaje": 16.89
+  },
+  {
+    "ccaa": "Andalucía",
+    "poblacion_q100": 128134,
+    "porcentaje": 13.38
+  },
+  {
+    "ccaa": "Castilla y León",
+    "poblacion_q100": 116742,
+    "porcentaje": 12.19
+  },
+  {
+    "ccaa": "Asturias",
+    "poblacion_q100": 51928,
+    "porcentaje": 5.42
+  },
+  {
+    "ccaa": "C. Valenciana",
+    "poblacion_q100": 50865,
+    "porcentaje": 5.31
+  },
+  {
+    "ccaa": "País Vasco",
+    "poblacion_q100": 44154,
+    "porcentaje": 4.61
+  },
+  {
+    "ccaa": "Baleares",
+    "poblacion_q100": 35115,
+    "porcentaje": 3.67
+  },
+  {
+    "ccaa": "Madrid",
+    "poblacion_q100": 13177,
+    "porcentaje": 1.38
+  },
+  {
+    "ccaa": "Galicia",
+    "poblacion_q100": 9110,
+    "porcentaje": 0.95
+  },
+  {
+    "ccaa": "Castilla-La Mancha",
+    "poblacion_q100": 8228,
+    "porcentaje": 0.86
+  },
+  {
+    "ccaa": "Aragón",
+    "poblacion_q100": 7430,
+    "porcentaje": 0.78
+  },
+  {
+    "ccaa": "Navarra",
+    "poblacion_q100": 5904,
+    "porcentaje": 0.62
+  },
+  {
+    "ccaa": "Canarias",
+    "poblacion_q100": 3375,
+    "porcentaje": 0.35
+  },
+  {
+    "ccaa": "Extremadura",
+    "poblacion_q100": 1916,
+    "porcentaje": 0.2
+  },
+  {
+    "ccaa": "La Rioja",
+    "poblacion_q100": 739,
+    "porcentaje": 0.08
+  },
+  {
+    "ccaa": "Cantabria",
+    "poblacion_q100": 0,
+    "porcentaje": 0.0
+  }
+]

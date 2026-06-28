@@ -1,0 +1,60 @@
+{
+  "name": "os-emisiones-co2-ibex35-2025-total-emissions",
+  "title": "IBEX35 total CO2eq emissions by company",
+  "description": "Report dataset for emisiones-co2-ibex35-2025 (total-emissions)",
+  "version": "1.0.0",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Observatorio de Sostenibilidad",
+      "path": "emisiones-totales-empresas.json"
+    }
+  ],
+  "resources": [
+    {
+      "name": "total-emissions",
+      "path": "data.parquet",
+      "format": "parquet",
+      "schema": {
+        "fields": [
+          {
+            "name": "empresa",
+            "type": "string"
+          },
+          {
+            "name": "emisiones_total_mt_co2eq",
+            "type": "number"
+          },
+          {
+            "name": "porcentaje_total",
+            "type": "integer"
+          },
+          {
+            "name": "color",
+            "type": "string"
+          }
+        ]
+      },
+      "os:query": true
+    }
+  ],
+  "os:provenance": {
+    "reportSlug": "emisiones-co2-ibex35-2025",
+    "sourceFile": "emisiones-totales-empresas.json",
+    "sourceHash": "94eec94d2685a2da2ceaca5346965d921217cd65320737c2b836d29a3737592b",
+    "registeredAt": "2026-06-21T15:06:28.697372+00:00"
+  },
+  "os:dataset": {
+    "uri": "os://dataset/os/emisiones-co2-ibex35-2025/total-emissions@1.0.0",
+    "classification": "public",
+    "visibility": "production",
+    "origin": "os_derived",
+    "kind": "tabular",
+    "status": "published"
+  }
+}
