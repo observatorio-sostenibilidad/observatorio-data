@@ -21,8 +21,9 @@ jobs:
       - uses: astral-sh/setup-uv@v5
       - name: Parquet readable
         run: |
-          uv pip install pyarrow --system
-          python3 - << 'PY'
+          uv venv .venv
+          uv pip install pyarrow
+          .venv/bin/python - << 'PY'
           import pyarrow.parquet as pq
           from pathlib import Path
           for p in [
