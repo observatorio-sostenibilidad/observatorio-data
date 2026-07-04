@@ -2,6 +2,8 @@
 *.parquet
 *.gpkg
 *.pmtiles
+# Pilot parquet for CI and export-lock (small; larger files stay on GCS)
+!datasets/miteco-ghg-national-2025/data.parquet
 # Large GeoJSON (>2MB) — served from GCS; keep municipios-index.json in Git
 datasets/**/limites-*.geojson
 datasets/**/limites-*.gpkg
